@@ -14,6 +14,7 @@ html {
     font-family: "Josefin Sans", sans-serif;
     font-size: 125%;
     /* color: white; */
+    
 }
 .wrapper {
     margin: 0 auto;
@@ -80,6 +81,10 @@ button {
 
 
 /* header  */
+
+.icon-menu {
+  display: none;
+}
 
 
 
@@ -289,6 +294,29 @@ header .image-header {
   /* media querry */
 
   @media(max-width: 768px) {
+
+    /* just trying */
+    .icon-menu {
+      display: block;
+      margin: 15px;
+      float: right;
+    }
+
+    header nav {
+      display: none;
+    }
+    
+
+
+
+
+
+
+    header h1 {
+      font-size: 100px;
+      margin: 38px 0px 0px 269px;
+
+    }
     header .flex-header {
         display: flex;
         flex-direction: column-reverse;
@@ -392,6 +420,10 @@ header .image-header {
     
   }
 
+  .adress {
+    text-align: center;
+  }
+
   footer .form-footer .email-form {
     display: flex;
     flex-direction: column;
@@ -406,6 +438,10 @@ header .image-header {
  #email {
   border-bottom-style: solid;
   margin-bottom: 8px;
+}
+
+.wrapper {
+  width:100%;
 }
 
 
