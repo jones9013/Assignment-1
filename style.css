@@ -13,7 +13,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 html {
     font-family: "Josefin Sans", sans-serif;
     font-size: 125%;
-    /* color: white; */
+    
     
 }
 .wrapper {
@@ -28,8 +28,6 @@ button {
 }
 
 
-
-/* generic tab */
 
 ul {
     list-style: none;
@@ -46,6 +44,7 @@ img {
     display: block;
     /* width:100%; */
 }
+
 h1,
 h2,
 h3 {
@@ -193,7 +192,7 @@ header .image-header {
       }
 
 
-.more-links ul {
+  .more-links ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,7 +251,7 @@ header .image-header {
   }
 
 
-/* flexing the whole footer class: wrapper */
+/* flexing the whole footer- class: wrapper */
   footer .wrapper {
     display: flex;
     justify-content: space-between;
@@ -306,11 +305,6 @@ header .image-header {
       display: none;
     }
     
-
-
-
-
-
 
     header h1 {
       font-size: 100px;
@@ -397,9 +391,10 @@ header .image-header {
 
    
 
+   /*  making only  two images displayed instead three   */
 
-
-   .none-mediaquerry img {
+   .none-mediaquerry,  
+   .none-mediaquerry img {     
     display: none;
    }
 
@@ -411,6 +406,7 @@ header .image-header {
     display: flex;
     justify-content: space-around;
    }
+
    footer .wrapper {
     display: flex;
     flex-direction: column;
@@ -427,7 +423,7 @@ header .image-header {
   footer .form-footer .email-form {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
+    
   }
 
 
